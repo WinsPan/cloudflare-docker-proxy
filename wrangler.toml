@@ -10,9 +10,9 @@ local_protocol = "http"
 CUSTOM_DOMAIN = "ybpan.com"
 
 [env.dev.vars]
-MODE = "debug"
+MODE = "production"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
-CUSTOM_DOMAIN = "exmaple.com"
+CUSTOM_DOMAIN = "ybpan.com"
 
 [env.production]
 name = "cloudflare-docker-proxy"
